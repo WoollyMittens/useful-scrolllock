@@ -1,0 +1,68 @@
+/*
+	Example Styling for Navigation Scroll-lock
+*/
+
+@media all {
+
+	@import "compass/css3";
+	@import "compass/utilities";
+
+	html {
+		font-family : Sans-Serif;
+		font-size : 75%;
+		height : 100%;
+	}
+	body {
+		_height:100%;
+		background : Silver;
+		line-height : 180%;
+		margin : 0;
+		min-height : 100%;
+		padding : 0;
+	}
+	section {
+		background : White;
+		border-left : solid 1px #000;
+		border-right : solid 1px #000;
+		margin : 0 auto;
+		position : relative;
+		max-width : 960px;
+		header {
+			background : Grey;
+			height : 96px;
+		}
+		nav {
+			@include background(linear-gradient(top, #fff 0%, #fff 3%, #ccc 3%, #999 97%, #666 97%, #666 100%));
+			@include box-shadow(0 1px 3px #999);
+			background-color : #ccc;
+			border-top : solid 1px #000;
+			border-bottom : solid 1px #000;
+			display : block;
+			height : 32px;
+			max-width : 960px;
+			position : absolute;
+			top : 96px;
+			width : 100%;
+			&.scroll-locked {
+				position : fixed;
+				top : 0;
+			}
+			&.scroll-unlocked {}
+		}
+		article {
+			background : White;
+			padding : 48px 16px 16px 16px;
+		}
+		footer {
+			background : Grey;
+			height : 64px;
+		}
+	}
+
+}
+@media (min-width: 1200px) {}
+@media (min-width: 980px) and (max-width: 1199px) {}
+@media (min-width: 768px) and (max-width: 979px) {}
+@media (max-width: 767px) {}
+@media (max-width: 480px) {}
+@media print {}
