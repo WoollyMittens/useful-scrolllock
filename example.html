@@ -4,12 +4,11 @@
 		<meta charset="UTF-8" />
 		<title>useful.scrolllock.js: Navigation Scroll-lock</title>
 		<link rel="stylesheet" href="./css/scrolllock.css"/>
-		<script src="./js/useful.scrolllock.js"></script>
+		<script src="./js/scrolllock.min.js"></script>
 		<!--[if lte IE 9]>
 			<meta http-equiv="imagetoolbar" content="no"/>
 			<meta http-equiv="X-UA-Compatible" content="IE=edge" />
             <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 		<![endif]-->
 	</head>
 	<body>
@@ -17,7 +16,7 @@
 			<header>
 				Header
 			</header>
-			<nav>
+			<nav id="exampleNavigation">
 				Nav
 			</nav>
 			<article>
@@ -43,13 +42,12 @@
 		</section>
 		<script>
 		//<!--
-			useful.css.select({
-				rule : 'nav',
-				handler : useful.scrolllock.watch,
-				data : {
-				//	'threshold' : {x:0, y:96}
-				}
+			// create a new instance of the script
+			var scrollock = new useful.Scrolllock( document.getElementById('exampleNavigation'), {
+				//'threshold' : {x:0, y:96}
 			});
+			// start the instance
+			scrollock.start();
 		//-->
 		</script>
 	</body>
