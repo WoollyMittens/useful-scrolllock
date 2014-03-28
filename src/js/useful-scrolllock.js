@@ -29,6 +29,8 @@
 			window.addEventListener('resize', function () { context.adjust(); }, false);
 			// measure the trigger position if none was given
 			this.cfg.threshold = this.cfg.threshold || useful.positions.object(this.obj);
+			// disable the start function so it can't be started twice
+			this.start = function () {};
 		};
 		this.adjust = function () {
 			// get the current scroll position
@@ -46,6 +48,8 @@
 				}
 			}
 		};
+		// go
+		this.start();
 	};
 
 }(window.useful = window.useful || {}));
