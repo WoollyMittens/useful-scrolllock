@@ -43,11 +43,10 @@
 		<script>
 		//<!--
 			// create a new instance of the script
-			var scrollock = new useful.Scrolllock( document.getElementById('exampleNavigation'), {
+			var scrollock = new useful.ScrollLock().init({
+				'element' : document.getElementById('exampleNavigation')
 				//'threshold' : {x:0, y:96}
 			});
-			// start the instance
-			scrollock.start();
 		//-->
 		</script>
 	</body>

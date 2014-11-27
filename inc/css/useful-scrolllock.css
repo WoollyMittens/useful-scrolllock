@@ -1,29 +1,29 @@
 /*
-	Constants
+Constants
 */
 /*
-	Hides text in the margin
+Hides text in the margin
 */
 /*
-	Turns a button into an icon
+Turns a button into an icon
 */
 /*
-	Centres a graphic or glyph inside an icon
+Centres a graphic or glyph inside an icon
 */
 /*
-	Offers both the pixel and rem value of a single property
+Offers both the pixel and rem value of a single property
 */
 /*
-	Offers both the pixel and rem values of a shorthand property
+Offers both the pixel and rem values of a shorthand property
 */
 /*
-	Offers the text size as both the pixel and rem value
+Offers the text size as both the pixel and rem value
 */
 /*
-	Adds vendor prefixed to a property
+Adds vendor prefixed to a property
 */
 /*
-	Applies the "clearfix" hack to a container with floating content
+Applies the "clearfix" hack to a container with floating content
 */
 /*
 	Example Styling for Navigation Scroll-lock
@@ -87,7 +87,7 @@ section nav {
   padding-bottom: 0rem;
   padding-left: 12px;
   padding-left: 1rem;
-  box-shadow: 0 1px 3px #999999;
+  box-shadow: 0 1px 3px #999;
   background-color: #ff6a00;
   color: #fff;
   display: block;

@@ -29,7 +29,8 @@ To enable the use of HTML5 tags in Internet Explorer 8 and lower, include *html5
 ## How to start the script
 
 ```javascript
-var scrollock = new useful.Scrolllock( document.getElementById('id'), {
+var scrollock = new useful.Scrolllock.init({
+	'element' : document.getElementById('id'),
 	'threshold' : {x:0, y:96}
 });
 ```
