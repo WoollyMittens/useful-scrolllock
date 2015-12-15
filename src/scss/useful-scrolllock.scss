@@ -1,5 +1,5 @@
-@import "compass/css3";
-@import "compass/utilities";
+
+
 @import "mixins";
 /*
 	Example Styling for Navigation Scroll-lock
@@ -17,7 +17,7 @@ body {
 	min-height : 100%;
 	padding : 0;
 	* {
-		@include box-sizing(border-box);
+		box-sizing: border-box;
 	}
 }
 section {
@@ -36,7 +36,7 @@ section {
 		@include rem('height', 3);
 		@include rem('line-height', 3);
 		@include rems('padding', 0, 1, 0, 1);
-		@include box-shadow(0 1px 3px #999);
+		box-shadow: 0 1px 3px #999;
 		background-color : $color-passive;
 		color : #fff;
 		display : block;

@@ -1,0 +1,111 @@
+/*
+Constants
+*/
+/*
+Hides text in the margin
+*/
+/*
+Turns a button into an icon
+*/
+/*
+Centres a graphic or glyph inside an icon
+*/
+/*
+Offers both the pixel and rem value of a single property
+*/
+/*
+Offers both the pixel and rem values of a shorthand property
+*/
+/*
+Offers the text size as both the pixel and rem value
+*/
+/*
+Adds vendor prefixed to a property
+*/
+/*
+Applies the "clearfix" hack to a container with floating content
+*/
+/*
+	Example Styling for Navigation Scroll-lock
+*/
+html {
+  font-family: Sans-Serif;
+  font-size: 100%;
+  height: 100%; }
+
+body {
+  _height: 100%;
+  background: Silver;
+  line-height: 180%;
+  margin: 0;
+  min-height: 100%;
+  padding: 0; }
+  body * {
+    box-sizing: border-box; }
+
+section {
+  background: #fff;
+  margin: 0 auto;
+  position: relative;
+  max-width: 960px; }
+  section header {
+    height: 108px;
+    height: 9rem;
+    padding-top: 12px;
+    padding-top: 1rem;
+    padding-right: 12px;
+    padding-right: 1rem;
+    padding-bottom: 12px;
+    padding-bottom: 1rem;
+    padding-left: 12px;
+    padding-left: 1rem;
+    background: #7f7f7f;
+    color: #fff; }
+  section nav {
+    top: 72px;
+    top: 6rem;
+    height: 36px;
+    height: 3rem;
+    line-height: 36px;
+    line-height: 3rem;
+    padding-top: 0px;
+    padding-top: 0rem;
+    padding-right: 12px;
+    padding-right: 1rem;
+    padding-bottom: 0px;
+    padding-bottom: 0rem;
+    padding-left: 12px;
+    padding-left: 1rem;
+    box-shadow: 0 1px 3px #999;
+    background-color: #ff6a00;
+    color: #fff;
+    display: block;
+    max-width: 960px;
+    position: absolute;
+    width: 100%; }
+    section nav.scroll-locked {
+      position: fixed;
+      top: 0; }
+  section article {
+    padding-top: 12px;
+    padding-top: 1rem;
+    padding-right: 12px;
+    padding-right: 1rem;
+    padding-bottom: 12px;
+    padding-bottom: 1rem;
+    padding-left: 12px;
+    padding-left: 1rem;
+    background: #fff; }
+  section footer {
+    height: 72px;
+    height: 6rem;
+    padding-top: 12px;
+    padding-top: 1rem;
+    padding-right: 12px;
+    padding-right: 1rem;
+    padding-bottom: 12px;
+    padding-bottom: 1rem;
+    padding-left: 12px;
+    padding-left: 1rem;
+    background: #7f7f7f;
+    color: #fff; }
