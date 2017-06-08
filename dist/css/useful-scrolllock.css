@@ -41,6 +41,7 @@ body {
   min-height: 100%;
   padding: 0; }
   body * {
+    -webkit-box-sizing: border-box;
     box-sizing: border-box; }
 
 section {
@@ -76,6 +77,7 @@ section {
     padding-bottom: 0rem;
     padding-left: 12px;
     padding-left: 1rem;
+    -webkit-box-shadow: 0 1px 3px #999;
     box-shadow: 0 1px 3px #999;
     background-color: #ff6a00;
     color: #fff;
