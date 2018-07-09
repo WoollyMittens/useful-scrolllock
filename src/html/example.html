@@ -2,14 +2,9 @@
 <html>
 	<head>
 		<meta charset="UTF-8" />
-		<title>useful.scrolllock.js: Navigation Scroll-lock</title>
-		<link rel="stylesheet" href="../css/useful-scrolllock.css"/>
-		<script src="../js/useful-scrolllock.js"></script>
-		<!--[if lte IE 9]>
-			<meta http-equiv="imagetoolbar" content="no"/>
-			<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-            <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
+		<title>scrolllock.js: Navigation Scroll-lock</title>
+		<link rel="stylesheet" href="../css/scrolllock.css"/>
+		<script src="../js/scrolllock.js"></script>
 	</head>
 	<body>
 		<section>
@@ -43,7 +38,7 @@
 		<script>
 		//<!--
 			// create a new instance of the script
-			var scrollock = new useful.ScrollLock().init({
+			var scrollock = new ScrollLock({
 				'element' : document.getElementById('exampleNavigation')
 				//'threshold' : {x:0, y:96}
 			});

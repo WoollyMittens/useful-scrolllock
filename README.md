@@ -1,4 +1,4 @@
-# useful.scrolllock.js: Navigation Scroll-lock
+# scrolllock.js: Navigation Scroll-lock
 
 The navigation bar becomes fix to the top of the screen after scrolling down the page.
 
@@ -9,27 +9,19 @@ Try the <a href="http://www.woollymittens.nl/default.php?url=useful-scrolllock">
 The stylesheet is best included in the header of the document.
 
 ```html
-<link rel="stylesheet" href="./css/useful-scrolllock.css"/>
+<link rel="stylesheet" href="./css/scrolllock.css"/>
 ```
 
 This include can be added to the header or placed inline before the script is invoked.
 
 ```html
-<script src="./js/useful-scrolllock.js"></script>
-```
-
-To enable the use of HTML5 tags in Internet Explorer 8 and lower, include *html5.js*.
-
-```html
-<!--[if lte IE 9]>
-	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
+<script src="./js/scrolllock.js"></script>
 ```
 
 ## How to start the script
 
 ```javascript
-var scrollock = new useful.Scrolllock.init({
+var scrollock = new Scrolllock({
 	'element' : document.getElementById('id'),
 	'threshold' : {x:0, y:96}
 });
