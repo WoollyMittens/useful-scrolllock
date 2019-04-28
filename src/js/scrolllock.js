@@ -52,5 +52,5 @@ var ScrollLock = function (config) {
 };
 
 // return as a require.js module
-if (typeof define != 'undefined') define(['scrolllock'], function () { return ScrollLock });
+if (typeof define != 'undefined') define([], function () { return ScrollLock });
 if (typeof module != 'undefined') module.exports = ScrollLock;
