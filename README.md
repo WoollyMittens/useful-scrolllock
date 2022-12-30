@@ -2,8 +2,6 @@
 
 The navigation bar becomes fix to the top of the screen after scrolling down the page.
 
-Try the <a href="http://www.woollymittens.nl/default.php?url=useful-scrolllock">countdown demo</a>.
-
 ## How to include the script
 
 The stylesheet is best included in the header of the document.
