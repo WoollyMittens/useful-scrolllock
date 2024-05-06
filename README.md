@@ -1,5 +1,7 @@
 # scrolllock.js: Navigation Scroll-lock
 
+*DEPRICATION WARNING: the functionality in this script has been superceeded / trivialised by updated web standards.*
+
 The navigation bar becomes fix to the top of the screen after scrolling down the page.
 
 ## How to include the script
@@ -28,11 +30,11 @@ requirejs([
 });
 ```
 
-Or import into an MVC framework.
+Or use imported as a component in existing projects.
 
 ```js
-var positions = require('lib/positions.js');
-var Scrolllock = require('js/scrolllock.js');
+@import {positions = require('lib/positions.js";
+@import {Scrolllock} from "js/scrolllock.js";
 ```
 
 ## How to start the script
@@ -48,21 +50,6 @@ var scrollock = new Scrolllock({
 
 **threshold : {object}** - After scrolling this far, the navigation becomes fixed. If not defined, the position will be measured instead.
 
-## How to build the script
-
-This project uses node.js from http://nodejs.org/
-
-This project uses gulp.js from http://gulpjs.com/
-
-The following commands are available for development:
-+ `npm install` - Installs the prerequisites.
-+ `gulp import` - Re-imports libraries from supporting projects to `./src/libs/` if available under the same folder tree.
-+ `gulp dev` - Builds the project for development purposes.
-+ `gulp dist` - Builds the project for deployment purposes.
-+ `gulp watch` - Continuously recompiles updated files during development sessions.
-+ `gulp serve` - Serves the project on a temporary web server at http://localhost:8500/.
-+ `gulp php` - Serves the project on a temporary php server at http://localhost:8500/.
-
 ## License
 
-This work is licensed under a [MIT License](https://opensource.org/licenses/MIT). The latest version of this and other scripts by the same author can be found on [Github](https://github.com/WoollyMittens) and at [WoollyMittens.nl](https://www.woollymittens.nl/).
+This work is licensed under a [MIT License](https://opensource.org/licenses/MIT). The latest version of this and other scripts by the same author can be found on [Github](https://github.com/WoollyMittens).

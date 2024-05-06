@@ -1,10 +1,27 @@
 <!DOCTYPE html>
 <html>
 	<head>
-    <title>Redirect to demo</title>
-		<script>document.location.replace('./dist/');</script>
+		<meta charset="UTF-8" />
+		<title>scrolllock.js: Navigation Scroll-lock</title>
+		<style>
+			html { font-family:Sans-Serif; font-size:75%; height:100%; }
+			body { _height:100%; line-height:180%; margin:0; min-height:100%; padding:1%; }
+			.example { max-width:960px; margin:0 auto; padding:0; clear:both; }
+			.example > article, .example > aside { width:98%; padding:2%; }
+			.example-left > article, .example-left > aside { width:48%; padding:1%; float:left; }
+			.example-right > article, .example-right > aside { width:48%; padding:1%; float:right; }
+		</style>
 	</head>
 	<body>
-		<a href="./dist/">Start</a>
+		<section class="example example-left">
+			<article>
+				<h2>Navigation Scroll-lock</h2>
+				<p>The navigation bar becomes fix to the top of the screen after scrolling down the page.</p>
+				<p><a class="button downloadButton" href="http://github.com/WoollyMittens/useful-scrolllock" target="_blank">Download (GitHub)</a></p>
+			</article>
+			<aside>
+				<p><a target="_blank" class="button" href="./html/example.html">Open example</a></p>
+			</aside>
+		</section>
 	</body>
 </html>
